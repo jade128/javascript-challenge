@@ -60,12 +60,7 @@ function handleSubmit() {
         // Filter the data if there was a date input
         filteredData = filteredData.filter(sighting => sighting.datetime === date);
     };
-    // else {
-    //     // If there was no date input the filtered data will equal the original dataset
-    //     filteredData = tData;
-    // };
-  
-    
+   
     // Check to see if a city was entered
     if (city) {
         // Filter the data if there was a city input
